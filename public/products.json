@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Box Clasico",
+    "category": "Especiales",
+    "price": 59.99,
+    "image": "/images/box_clasic.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Box Infantil",
+    "category": "Especiales",
+    "price": 49.99,
+    "image": "/images/box_infantil.webp"
+  },
+  {
+    "id": 3,
+    "name": "Torta Brownie",
+    "category": "Tartas y Tortas",
+    "price": 39.99,
+    "image": "/images/brownie.webp"
+  },
+  {
+    "id": 4,
+    "name": "Macarrons",
+    "category": "Pastelería Clásica",
+    "price": 69.99,
+    "image": "/images/macarons.webp"
+  },
+  {
+    "id": 5,
+    "name": "Muffin Clásico",
+    "category": "Muffins y Cupcakes",
+    "price": 29.99,
+    "image": "/images/muffin.png"
+  },
+  {
+    "id": 6,
+    "name": "Torta Tiramisu",
+    "category": "Tartas y Tortas",
+    "price": 49.99,
+    "image": "/images/tiramisu.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Budín",
+    "category": "Pastelería Clásica",
+    "price": 29.99,
+    "image": "/images/budin.png"
+  },
+  {
+    "id": 8,
+    "name": "Chocotorta",
+    "category": "Tartas y Tortas",
+    "price": 49.99,
+    "image": "/images/chocotorta.webp"
+  }
+]

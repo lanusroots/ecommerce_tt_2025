@@ -1,0 +1,53 @@
+.banner {
+  position: relative;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/images/banner.jpg"); /* asegúrate de tener esta imagen en /public/images */
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.banner::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5); /* oscurece la imagen */
+}
+
+.banner-content {
+  position: relative;
+  text-align: center;
+  z-index: 1;
+  max-width: 600px;
+  padding: 0 1rem;
+}
+
+.banner-content h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.banner-content p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.4;
+}
+
+.banner-btn {
+  background-color: #00bcd4;
+  border: none;
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.banner-btn:hover {
+  background-color: #0195a9;
+}
